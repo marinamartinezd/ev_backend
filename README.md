@@ -99,3 +99,6 @@ Te generara un link donde puedes acceder a la pagina del proyecto
 Si en el link agregas al final un /admin, puedes acceder a la pestaña de admin, con las credenciales:
 - admin
 - contraseñaadmin
+- 
+## Extra: .dll
+El archivo .dll de la base de datos se encuentra en la carpeta dll
