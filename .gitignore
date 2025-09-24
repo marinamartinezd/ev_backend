@@ -21,7 +21,6 @@ ENV/
 .env
 *.env
 
-db.sqlite3
 /media/           # subidas de usuarios (generadas en runtime)
 staticfiles/      # salida de collectstatic (NO versionar)
 
