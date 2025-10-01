@@ -1,5 +1,22 @@
 # Proyecto Back-End 1
 ### Integrantes: Benjamin Duarte, Marina Martinez, Cristobal Medina, Patricio Villalobos
+
+
+## Descripcion del proyecto
+Queremos tener una pagina en la cual la gente pueda adoptar mascotas de forma mas facil, y que esos animales puedan encontrar un dulce hogar.
+En eso consiste este proyecto, una pagina desarrollada con el framework de Django, donde ahora mismo en el repositorio esta la primera version.
+
+Tristemente, por ahora, solo esta los modelos de la base de datos definidos (sujeto a cambios futuros) y la pagina del admin para la supervicion de los modelos y otros administradores.
+
+## Estructura
+La estructura basica del proyecto es la de DJango
+
+
+![image](https://media.discordapp.net/attachments/776863649570226199/1422775775157031022/image.png?ex=68dde6b2&is=68dc9532&hm=20a2e83f5da84e2af55679c6d1a1cb6fc08e4e911f3984918bbf1c6679c5365d&=&format=webp&quality=lossless)
+
+Como se ve en la captura, "pagina" es la carpeta de la app principal, y "ev_backend" la carpeta del proyecto.
+
+Donde hay codigo util es solo en models, donde estan todos las tablas de datos a utilizar. Y en admin definido las tablas del models que se pueden ver desde la pestaña de admin. el resto se mantiene en su mayoria igual.
 ## Requisitos Previos
 
 - Python - Version 1.13.0 como minimo
@@ -99,6 +116,6 @@ Te generara un link donde puedes acceder a la pagina del proyecto
 Si en el link agregas al final un /admin, puedes acceder a la pestaña de admin, con las credenciales:
 - admin
 - contraseñaadmin
-- 
+
 ## Extra: .dll
 El archivo .dll de la base de datos se encuentra en la carpeta dll
